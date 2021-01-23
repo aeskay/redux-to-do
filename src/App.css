@@ -1,0 +1,100 @@
+.mainContainer{
+  background-color: rgb(14, 180, 180);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.body{
+  
+  padding: 30px 10px
+}
+
+.formDiv form input{
+  height: 40px;
+  width: 250px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  padding: 10px
+}
+
+.formDiv form button{
+  height: 42px;
+  padding: 0px 30px;
+  background-color: rgb(3, 119, 148);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  outline: none;
+  transition: 400ms ease-in;
+}
+
+.formDiv form button:hover{
+  background-color: rgba(3, 119, 148, 0.4);
+}
+
+.itemsDiv{
+  display: block;
+  margin-top: 40px
+}
+
+.itemDiv li{
+  padding: 10px;
+  background-color: rgb(156, 235, 238);
+  color: black;
+  font-weight: bold;
+  list-style: none;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 0px 0px 5px 5px;
+  transition: 500ms ease-in-out;
+  overflow:visible
+}
+
+.itemDiv li:hover{
+  padding: 10px;
+  background-color: rgb(243, 179, 179);
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  margin: 30px auto;
+}
+
+.remain{
+  text-align: center;
+}
+
+
+.itemDiv li .icon{
+  visibility: hidden;
+  float: right;
+ 
+}
+
+.itemDiv li:hover .icon{
+  visibility: visible;
+  float: right;
+}
+
+.taskInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskInfo span{
+  background-color: rgb(107, 221, 145);
+  color: black;
+  font-weight: 400;
+  margin-left: 10px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 300ms ease-in;
+}
+
+.taskInfo span:hover{
+  background-color: rgb(57, 212, 109);
+}
